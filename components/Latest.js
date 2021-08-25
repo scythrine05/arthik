@@ -10,7 +10,7 @@ const Latest = () => {
     <>
       <div className={styles.latest}>
         <div className={styles.latest_sub}>
-          <Carousel indicators={false}>
+          <Carousel className={styles.carousel} indicators={false}>
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -18,13 +18,7 @@ const Latest = () => {
                 alt="First slide"
               />
               <Carousel.Caption className={styles.caption}>
-                <h3>
-                  First slide label First slide label0First slide labelFirst
-                  slide label First slide label First slide label First slide
-                  label First slide label First slide label First slide label
-                  First slide label First slide label First slide label First
-                  slide label First slide label
-                </h3>
+                <h3>২৫ বছরের লোন কিভাবে ১০ বছরে শোধ করা যাই</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,7 +29,7 @@ const Latest = () => {
               />
 
               <Carousel.Caption className={styles.caption}>
-                <h3>Second slide label</h3>
+                <h3>ভাড়ায় থাকা উচিত ? BUY HOME VS RENT</h3>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,7 +40,7 @@ const Latest = () => {
               />
 
               <Carousel.Caption className={styles.caption}>
-                <h3>Third slide label</h3>
+                <h3>ZOMATO তে কি ইনভেস্ট করা উচিত কি না ?</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
