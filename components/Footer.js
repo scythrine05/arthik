@@ -9,6 +9,7 @@ const Footer = () => {
         <div className={styles.content}>
           <p>Contact</p>
           <p>Privacy</p>
+          <p>Developers</p>
         </div>
         <div className={styles.social}>
           <SocialIcon

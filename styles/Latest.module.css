@@ -21,7 +21,6 @@
   height: 100%;
   padding: 10px;
   width: 100%;
-  cursor: pointer;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -29,10 +28,17 @@
 }
 
 .caption h3 {
-  font-size: 21px;
-  margin-bottom: 1em;
+  font-size: 25px;
+  margin-bottom: 2em;
+  cursor: pointer;
+  color: #fbeec1;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .caption h3:hover {
+    color: #fff;
+  }
+}
 @media only screen and (max-width: 768px) {
   .latest_sub {
     width: 99%;
@@ -40,5 +46,6 @@
   }
   .caption h3 {
     font-size: 18px;
+    margin-bottom: 1em;
   }
 }
