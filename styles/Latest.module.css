@@ -7,14 +7,30 @@
 .latest_sub {
   width: 60%;
   height: 60%;
+  box-shadow: 0 10px 15px rgba(3, 14, 18, 0.5);
 }
+
 .caption {
-  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -150px 155px rgba(3, 14, 18, 0.8) inset;
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
   padding: 10px;
   width: 100%;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.caption h3 {
+  font-size: 21px;
+  margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 768px) {

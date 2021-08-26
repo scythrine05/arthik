@@ -5,6 +5,9 @@
   padding: 0 30px;
   justify-content: space-around;
   align-items: center;
+  border-top-left-radius: 50% 20%;
+  border-top-right-radius: 50% 20%;
+  background: #5bccf6;
 }
 .footer > div {
   display: flex;
@@ -18,8 +21,29 @@
   margin-right: 2px;
 }
 
+.icon {
+  transform: scale(0.6, 0.6);
+}
+
+.content {
+  margin-top: 12px;
+  display: flex;
+}
+
+.content p {
+  margin-left: 20px;
+}
+
 @media (max-width: 768px) {
   .footer {
     font-size: 12px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .icon {
+    transform: scale(0.6, 0.6);
+  }
+  .content p {
+    margin-left: 10px;
   }
 }
