@@ -6,7 +6,7 @@ import styles from "../styles/Card.module.scss";
 const Card = (props) => {
   return (
     <>
-      <Link href={"/posts/" + props.id}>
+      <Link href={"/posts/" + props.id} passHref={true}>
         <div>
           <div className={styles.card}>
             <div
