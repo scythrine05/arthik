@@ -21,14 +21,12 @@ const Header = () => {
             src="/profile.png"
             height={550}
             width={550}
-            alt="buy me a coffee"
           />
           <img
             className={styles.profile_png2}
             src="/profile.png"
-            height={140}
-            width={140}
-            alt="buy me a coffee"
+            height={200}
+            width={200}
           />
         </div>
       </header>

@@ -45,8 +45,8 @@
 }
 .profile_png2 {
   border-radius: 10%;
-  bottom: -3%;
-  left: 40%;
+  top: 75%;
+  left: 20%;
   position: absolute;
   display: none;
 }
