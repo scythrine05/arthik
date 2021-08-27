@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps }) {
         stopDelayMs={200}
         height={3}
       />
-
       <Component {...pageProps} />
     </>
   );
