@@ -3,6 +3,7 @@ import CardSection from "../components/CardSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Latest from "../components/Latest";
+import BMC from "../components/bmc";
 import axios from "axios";
 
 import styles from "../styles/Home.module.css";
@@ -18,6 +19,7 @@ export default function Home(props) {
         </Head>
         <Header />
         <main className={styles.main}>
+          <BMC />
           <Latest posts={props.latest} />
           <CardSection posts={props.posts} />
         </main>
