@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/bmc.js", "pages/bmc.js", "pages/_document.js"  ],
   "exclude": [
     "node_modules"
   ]

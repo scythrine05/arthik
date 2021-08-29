@@ -1,5 +1,6 @@
 import axios from "axios";
 import Head from "next/head";
+import BMC from "../../components/bmc";
 import Footer from "../../components/Footer";
 
 import styles from "../../styles/Post.module.css";
@@ -20,6 +21,7 @@ const Posts = (props) => {
           />
         </header>
         <main className={styles.main}>
+          <BMC />
           <h1>{props.post.title}</h1>
           <p>{props.post.body}</p>
         </main>
