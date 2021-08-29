@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script
+          {/* <script
             data-name="BMC-Widget"
             data-cfasync="false"
             src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
@@ -16,7 +16,7 @@ class MyDocument extends Document {
             data-position="Right"
             data-x_margin="18"
             data-y_margin="18"
-          />
+          /> */}
         </Head>
         <body>
           <Main />
