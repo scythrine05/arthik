@@ -4,9 +4,11 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Latest from "../components/Latest";
 import BMC from "../components/bmc";
+
 import axios from "axios";
 
 import styles from "../styles/Home.module.css";
+import ScrollTopArrow from "../components/Scroll";
 
 export default function Home(props) {
   return (
@@ -20,6 +22,7 @@ export default function Home(props) {
         <Header />
         <main className={styles.main}>
           <BMC />
+          <ScrollTopArrow />
           <Latest posts={props.latest} />
           <CardSection posts={props.posts} />
         </main>

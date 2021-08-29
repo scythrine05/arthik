@@ -2,6 +2,7 @@ import axios from "axios";
 import Head from "next/head";
 import BMC from "../../components/bmc";
 import Footer from "../../components/Footer";
+import ScrollTopArrow from "../../components/Scroll";
 
 import styles from "../../styles/Post.module.css";
 
@@ -22,6 +23,7 @@ const Posts = (props) => {
         </header>
         <main className={styles.main}>
           <BMC />
+          <ScrollTopArrow />
           <h1>{props.post.title}</h1>
           <p>{props.post.body}</p>
         </main>
