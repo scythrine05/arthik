@@ -4,10 +4,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
-        <body>
-          <Main />
-          <NextScript />
+        <Head>
           <script
             data-name="BMC-Widget"
             data-cfasync="false"
@@ -19,7 +16,11 @@ class MyDocument extends Document {
             data-position="Right"
             data-x_margin="18"
             data-y_margin="18"
-          ></script>
+          />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
