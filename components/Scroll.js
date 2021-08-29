@@ -26,11 +26,16 @@ const ScrollTopArrow = () => {
   };
 
   return (
-    <div
-      style={{ display: showScroll ? "flex" : "none" }}
-      className={styles.scrollTop}
-    >
-      <FaArrowCircleUp className={styles.arrow} size={30} onClick={scrollTop} />
+    <div className={styles.scrollTop}>
+      <FaArrowCircleUp
+        className={styles.arrow}
+        size={30}
+        style={{
+          visibility: showScroll ? "visible" : "hidden",
+          opacity: showScroll ? "1" : "0",
+        }}
+        onClick={scrollTop}
+      />
     </div>
   );
 };

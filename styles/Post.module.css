@@ -12,6 +12,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
   align-self: center;
 }
 
