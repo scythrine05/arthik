@@ -24,14 +24,15 @@
   animation: fadeIn 0.3s;
   cursor: pointer;
 }
-
-.arrow:hover {
-  filter: opacity(1);
+@media (hover: hover) and (pointer: fine) {
+  .arrow:hover {
+    filter: opacity(1);
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .arrow {
-    opacity: 1;
+    filter: opacity(1);
   }
 }
 
